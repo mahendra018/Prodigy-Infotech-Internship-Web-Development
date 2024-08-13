@@ -38,4 +38,5 @@ WEBSITE: [https://tictactoe-3lu.pages.dev](https://tictactoe-3lu.pages.dev)
 
 WEBSITE: [https://https://meteo-8j8.pages.dev](https:https:/meteo-8j8.pages.dev)
 
-![Screenshot 2024-08-13 212222](https://github.com/user-attachments/assets/2ea51385-6fdf-46f1-a8f5-7f30b8c21b03)
+![Screenshot 2024-08-14 031916](https://github.com/user-attachments/assets/fdcd9677-269a-4c41-99ee-efd98c92e9b0)
+
