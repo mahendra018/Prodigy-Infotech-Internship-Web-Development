@@ -3,7 +3,7 @@
 
 #### PAGE NAME : WeatherAPP
 
-#### WEBSITE: [https://https://weatherapp-1sh.pages.dev](https:https://weatherapp-1sh.pages.dev)
+#### WEBSITE: [https://https://meteo-8j8.pages.dev](https:https://meteo-8j8.pages.dev)
 
 ## Description:
 
