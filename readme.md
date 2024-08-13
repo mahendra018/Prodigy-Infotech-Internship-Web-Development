@@ -1,4 +1,3 @@
-**
 #### TASK 1  : Responsive Website
 
 #### PAGE NAME : Travel Website
