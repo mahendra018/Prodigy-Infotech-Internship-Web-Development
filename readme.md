@@ -36,7 +36,7 @@ WEBSITE: [https://tictactoe-3lu.pages.dev](https://tictactoe-3lu.pages.dev)
 
 ### TASK 5  : WeatherAPP
 
-WEBSITE: [https://meteo-8j8.pages.dev](https:/meteo-8j8.pages.dev)
+WEBSITE: [https://meteo-8j8.pages.dev](https://meteo-8j8.pages.dev)
 
 ![Screenshot 2024-08-14 031916](https://github.com/user-attachments/assets/fdcd9677-269a-4c41-99ee-efd98c92e9b0)
 
