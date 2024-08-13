@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+   
+}
+
+body {
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #CFE7E5;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #213638;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #213638;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #1dcdda;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.menu-icon div {
+    width: 25px;
+    height: 3px;
+    background-color: #6b5151;
+}
+
+.hero {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/88/Kotagiri%2CNilgiris.jpg) ;
+    /* background-color: #78e08f; */
+    padding: 100px 20px;
+    text-align: center;
+    color: #ffffff;
+    animation: fadeIn 2s ease-in-out;
+    
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.cta-button {
+    background-color: #38ada9;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #079992;
+}
+
+.products {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.products h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.product-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background-color: #f8c291;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+/* .Description {
+    background-color: #CFE7E5;
+    color: #213638;
+    text-align: left;
+   width: 100%;
+  padding: 1%;
+    color: #1a3335;
+
+} */
+
+footer {
+    background-color: #CFE7E5;
+    color: #213638;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+    .menu-icon {
+        display: flex;
+    }
+    .navbar.active .nav-links {
+        margin: auto;
+        padding: auto;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 70px;
+        right: 20px;
+        background-color: #0a3d62;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+    .product-grid {
+        flex-direction: column;
+    }
+}
